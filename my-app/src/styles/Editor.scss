@@ -1,0 +1,22 @@
+.editorWrapper {
+  &__input,
+  &__textArea {
+    width: 98%;
+    display: block;
+    margin: 2rem auto;
+    border: none;
+    outline: none;
+    background-color: #e6e2e2;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  &__textArea {
+    font-weight: 400;
+  }
+}
+
+.editorWrapper__input--description {
+  height: 35rem;
+}

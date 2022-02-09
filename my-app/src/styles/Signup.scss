@@ -1,0 +1,19 @@
+@import "./Login.scss";
+
+.container {
+  @extend .container;
+
+  &__heading {
+    @extend .container__heading;
+  }
+}
+
+.close {
+  @extend .close;
+}
+
+.form {
+  &__input {
+    @extend .form__input;
+  }
+}

@@ -1,0 +1,19 @@
+.modal {
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.modal--visible {
+  opacity: 1;
+  pointer-events: auto;
+}

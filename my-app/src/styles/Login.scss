@@ -1,0 +1,38 @@
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  max-width: 35rem;
+  width: 98%;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+
+  &__heading {
+    color: #000;
+    font-size: 3rem;
+    margin: 0 auto 3rem auto;
+  }
+}
+
+.close {
+  color: #000;
+  position: absolute;
+  right: 3rem;
+  top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.form {
+  &__input {
+    width: 97%;
+    background-color: #f7f7f7;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    font-size: 2rem;
+  }
+}

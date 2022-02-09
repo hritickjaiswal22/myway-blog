@@ -1,0 +1,29 @@
+@media only screen and (max-width: 400px) {
+  .header__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      display: block;
+      margin: 2rem auto;
+      width: 95%;
+    }
+  }
+
+  .btn + .btn {
+    margin: 2rem auto;
+  }
+
+  .header__logoBox {
+    margin-bottom: 2rem;
+  }
+
+  .header__buttonBox {
+    width: 100%;
+  }
+
+  .container {
+    padding: 0;
+  }
+}

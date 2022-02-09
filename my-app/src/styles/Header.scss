@@ -1,0 +1,20 @@
+.header {
+  box-shadow: 5px 5px 15px #eee, -5px -5px 15px #f4f4f4;
+  margin-bottom: 5rem;
+
+  &__wrapper {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  &__logo {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}
+
+@import "./MediaQueries.scss";

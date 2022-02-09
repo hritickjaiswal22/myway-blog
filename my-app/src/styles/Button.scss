@@ -1,0 +1,47 @@
+$green: #3c5a5f;
+
+.btn {
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: $green;
+  background-color: #fff;
+  outline: none;
+  border: 2px solid $green;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn + .btn {
+  margin-left: 2rem;
+}
+
+.btn:hover {
+  background-color: $green;
+  color: #fff;
+}
+
+.btn--green {
+  background-color: $green;
+  color: #fff;
+}
+
+.btn--small {
+  color: #0984e3;
+  border: 1px solid #0984e3;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  font-weight: 800;
+}
+
+.btn--small:hover {
+  background-color: #0984e3;
+  color: #fff;
+}

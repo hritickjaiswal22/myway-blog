@@ -1,0 +1,35 @@
+.card {
+  max-width: 30rem;
+  width: 98%;
+  min-height: 35rem;
+  background-color: #fff;
+  justify-self: center;
+  margin: 3rem auto;
+  border-radius: 1rem;
+  box-shadow: 3px 2px 3px 1px #d6cccc;
+  position: relative;
+
+  &__imageBox {
+    border-radius: 1rem 1rem 0 0;
+    overflow: hidden;
+    height: 19rem;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__descriptionBox {
+    padding: 1rem;
+  }
+
+  &__title {
+    font-size: 3rem;
+  }
+
+  &__description {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+}
